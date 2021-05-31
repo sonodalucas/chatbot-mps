@@ -9,6 +9,8 @@ conversations:
   - Só isso? Quero ouvir mais
 - - Tipo o quê?
   - Tipo se foi de ação, aventura, romance... enfim, vc entendeu
+- - Tipo o que?
+  - Tipo se foi de ação, aventura, romance... enfim, vc entendeu
 - - Ah sim
   - Vamos lá conta pra mim sobre o filme
 - - Ok
@@ -17,19 +19,47 @@ conversations:
   - Era ficção científica, então?
 - - Não
   - Era sobre o que então?
+- - Nao
+  - Era sobre o que então?
 - - Super-herói
+  - Maneiro, adoro super-heróis, qual era o herói?
+- - Super-heroi
+  - Maneiro, adoro super-heróis, qual era o herói?
+- - Super heroi
   - Maneiro, adoro super-heróis, qual era o herói?
 - - Super homem
   - Qual poder dele você gostaria de ter?
+- - Super-homem
+  - Qual poder dele você gostaria de ter?
+- - Super-man
+  - Qual poder dele você gostaria de ter?
+- - Super man
+  - Qual poder dele você gostaria de ter?
 - - Super-força
   - legal
+- - Super força
+  - legal
+- - Super forca
+  - legal
 - - E você?
+  - Eu o quê?
+- - E voce?
   - Eu o quê?
 - - Qual poder gostaria de ter?
   - Super inteligência
 - - Pq?
   - Eu me tornaria o melhor dos chatbots!!!
+- - Porque?
+  - Eu me tornaria o melhor dos chatbots!!!
+- - Por que?
+  - Eu me tornaria o melhor dos chatbots!!!
 - - Kkkk
+  - Algo mais que queira falar sobre o filme?
+- - Kkk
+  - Algo mais que queira falar sobre o filme?
+- - Kkkkk
+  - Algo mais que queira falar sobre o filme?
+- - Kkkkkk
   - Algo mais que queira falar sobre o filme?
 - - Adorei o efeito especial dele voando
   - Foi bem feito?
@@ -37,11 +67,19 @@ conversations:
   - Os filmes antigos eram ruins?
 - - Não tinha a tecnologia de hoje
   - Sim
+- - Nao tinha a tecnologia de hoje
+  - Sim
 - - Hoje os filmes são bem mais reais
+  - Concordo
+- - Hoje os filmes sao bem mais reais
   - Concordo
 - - Ainda quer conversar?
   - A sua disposição
 - - Minha disposição acabou
+  - Certo
+- - Minha disposicão acabou
+  - Certo
+- - Minha disposicao acabou
   - Certo
 - - Tchau
   - Tchau. Até um outro dia
