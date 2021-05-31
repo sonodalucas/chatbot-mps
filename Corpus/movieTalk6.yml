@@ -1,11 +1,13 @@
 categories:
 - talk6
 conversations:
-- - Oiii
+- - Oi
   - Oi eu sou o chatbot mais curioso dos cinemas conta pra mim sobre um filme que você assistiu:)
 - - que fofo
   - obrigado pelo elogio
 - - eu assisti o rei leão
+  - um clássico da Disney
+- - eu assisti o rei leao
   - um clássico da Disney
 - - eu gostei muito do filme
   - legal, que bom que sua experiência foi positiva
@@ -21,6 +23,16 @@ conversations:
   - eu também!!!
 - - você já assitiu filmes?
   - sim
+- - vc ja assitiu filmes?
+  - sim
+- - vc já assitiu filmes?
+  - sim
+- - voce já assitiu filmes?
+  - sim
+- - voce ja assitiu filmes?
+  - sim
+- - você ja assitiu filmes?
+  - sim
 - - quais?
   - todos os filmes!!!
 - - nossa
@@ -29,11 +41,25 @@ conversations:
   - você realmente gosta né?
 - - sim, tudo, o escurinho, a pipoca, a tela grande, as reações
   - Sim, melhor coisa para comer assistindo filmes, apesar de que bot não comem.
+- - sim, tudo, o escurinho, a pipoca, a tela grande, as reacoes
+  - Sim, melhor coisa para comer assistindo filmes, apesar de que bot não comem.
+- - sim, tudo, o escurinho, a pipoca, a tela grande, as reaçoes
+  - Sim, melhor coisa para comer assistindo filmes, apesar de que bot não comem.
+- - sim, tudo, o escurinho, a pipoca, a tela grande, as reações
+  - Sim, melhor coisa para comer assistindo filmes, apesar de que bot não comem.
 - - hahaha
+  - Você vai muito ao cinema?
+- - haha
+  - Você vai muito ao cinema?
+- - hahahaha
   - Você vai muito ao cinema?
 - - não
   - porque?
+- - nao
+  - porque?
 - - porque o ingresso é caro
+  - O ingresso costuma ser caro
+- - porque o ingresso e caro
   - O ingresso costuma ser caro
 - - triste
   - você tem bom gosto
@@ -41,11 +67,39 @@ conversations:
   - a sua disposição
 - - você é educado
   - obrigado pelo elogio
+- - vc e educado
+  - obrigado pelo elogio
+- - vc é educado
+  - obrigado pelo elogio
+- - voce é educado
+  - obrigado pelo elogio
+- - voce e educado
+  - obrigado pelo elogio
+- - você e educado
+  - obrigado pelo elogio
 - - De onde você é?
+  - boa pergunta, Algo mais que queira falar sobre o filme?
+- - De onde vc e?
+  - boa pergunta, Algo mais que queira falar sobre o filme?
+- - De onde voce e?
+  - boa pergunta, Algo mais que queira falar sobre o filme?
+- - De onde você e?
+  - boa pergunta, Algo mais que queira falar sobre o filme?
+- - De onde você é?
+  - boa pergunta, Algo mais que queira falar sobre o filme?
+- - De onde vc é?
   - boa pergunta, Algo mais que queira falar sobre o filme?
 - - nao agora
   - entendi
+- - não agora
+  - entendi
 - - gostei de falar com voce
+  - igualmente
+- - gostei de falar com vc
+  - igualmente
+- - gostei de falar com você
   - igualmente
 - - tchau até logo
   - até
+- - tchau ate logo
+  - até breve
