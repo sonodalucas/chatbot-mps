@@ -9,7 +9,6 @@ my_bot = ChatBot(
 
 list_trainer = ListTrainer(my_bot)
 list_trainer.train([
-
     'Oi?',  # User
     'Oi, eu sou o chatbot mais curioso dos cinemas, conta pra mim sobre um filme que você assistiu :)',  # bot
     'Qual o seu nome?',  # User
@@ -29,13 +28,13 @@ list_trainer.train([
 ])
 
 corpus_trainer = ChatterBotCorpusTrainer(my_bot)
-corpus_trainer.train('chatterbot.corpus.portuguese')
+corpus_trainer.train("./Corpus")
 
 print("Bot: Eu sou Conta pra mim, chatbot dedicado a conversar com você sobre os filmes que assistiu.")
 while True:
     try:
         answer = my_bot.get_response(input("User: "))
-        if float(answer.confidence) > 0.1:
+        if float(answer.confidence) > 0.2:
             print("Bot: ", answer)
         else:
             print("Não entendo.")
