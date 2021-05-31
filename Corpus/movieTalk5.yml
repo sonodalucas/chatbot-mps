@@ -5,21 +5,43 @@ conversations:
   - Oi eu sou o chatbot mais curioso dos cinemas conta pra mim sobre um filme que você assistiu:)
 - - porque?
   - é meu gosto pessoal
+- - pq?
+  - é meu gosto pessoal
+- - por que?
+  - é meu gosto pessoal
 - - o que?
   - o que você nao entendeu?
+- - o q?
+  - o que você nao entendeu?
+- - q?
+  - o que você nao entendeu?
 - - o que é seu gosto pessoal?
+  - Gosto de todos os filmes!!!
+- - o que e seu gosto pessoal?
   - Gosto de todos os filmes!!!
 - - nossa
   - Qual foi seu filme favorito?
 - - a múmia
   - uau, esse já é antigo
+- - a mumia
+  - uau, esse já é antigo
 - - sim
   - Algum filme você não gostou?
 - - nao me lembro 
   - porque?
+- - não me lembro 
+  - porque?
 - - já vi muitos filmes
   - é isso aí
+- - ja vi muitos filmes
+  - é isso aí
 - - você ve filmes?
+  - sim
+- - voce ve filmes?
+  - sim
+- - voce vê filmes?
+  - sim
+- - você vê filmes?
   - sim
 - - quais?
   - todos os filmes!!!
@@ -27,7 +49,15 @@ conversations:
   - gosta de filmes de terror?
 - - sim
   - Qual filme de terror você gosta?
+- - s
+  - Qual filme de terror você gosta?
 - - premonicao
+  - legal
+- - premonição
+  - legal
+- - premonicão
+  - legal
+- - premoniçao
   - legal
 - - legal
   - Você já viu um filme mais de uma vez?
@@ -41,13 +71,27 @@ conversations:
   - a sua disposição
 - - você é meu amigo?
   - sim, um amigo para falar sobre filmes
+- - você e meu amigo?
+  - sim, um amigo para falar sobre filmes
+- - voce e meu amigo?
+  - sim, um amigo para falar sobre filmes
+- - vc e meu amigo?
+  - sim, um amigo para falar sobre filmes
+- - vc é meu amigo?
+  - sim, um amigo para falar sobre filmes
 - - Qual é o seu nome?
+  - Conta pra mim, bot feito para conversar sobre filmes.
+- - Qual e o seu nome?
+  - Conta pra mim, bot feito para conversar sobre filmes.
+- - Qual seu nome?
   - Conta pra mim, bot feito para conversar sobre filmes.
 - - entendi
   - Algo mais que queira falar sobre o filme?
 - - que filme?
   - O que você assistiu, duh
 - - nao
+  - Oh...ok
+- - não
   - Oh...ok
 - - falou
   - falou
