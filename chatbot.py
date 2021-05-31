@@ -34,7 +34,8 @@ print("Bot: Eu sou Conta pra mim, chatbot dedicado a conversar com você sobre o
 while True:
     try:
         answer = my_bot.get_response(input("User: "))
-        if float(answer.confidence) > 0.2:
+        # print(answer.confidence) -> teste só pra ver as confianças das respostas
+        if float(answer.confidence) > 0.05:
             print("Bot: ", answer)
         else:
             print("Não entendo.")
