@@ -30,12 +30,20 @@ list_trainer.train([
 corpus_trainer = ChatterBotCorpusTrainer(my_bot)
 corpus_trainer.train("./Corpus")
 
-print("Bot: Eu sou Conta pra mim, chatbot dedicado a conversar com você sobre os filmes que assistiu.")
-while True:
+print("Bem vindo ao Conta pra mim, chatbot desenvolvido para conversar com você sobre filmes.\n"
+      "Converse com o Conta pra mim da maneira que preferir, se desejar sair digite: tchau\n")
+
+talking = True
+while talking:
     try:
-        answer = my_bot.get_response(input("User: "))
+
+        userInput = input("User: ")
+        answer = my_bot.get_response(userInput)
         # print(answer.confidence) -> teste só pra ver as confianças das respostas
-        if float(answer.confidence) > 0.05:
+        if userInput.lower() == "tchau":
+            talking = False
+            print("Bot: Tchau tchau, até a próxima :)")
+        elif float(answer.confidence) > 0.05:
             print("Bot: ", answer)
         else:
             print("Não entendo.")
