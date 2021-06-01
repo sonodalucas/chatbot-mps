@@ -4,7 +4,7 @@ from chatterbot.trainers import ChatterBotCorpusTrainer
 
 my_bot = ChatBot(
     name="bot",
-    logic_adapters=['chatterbot.logic.MathematicalEvaluation', 'chatterbot.logic.BestMatch']
+    logic_adapters=['chatterbot.logic.BestMatch']
 )
 
 list_trainer = ListTrainer(my_bot)
