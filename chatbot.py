@@ -4,7 +4,7 @@ from chatterbot.trainers import ChatterBotCorpusTrainer
 
 my_bot = ChatBot(
     name="bot",
-    logic_adapters=['chatterbot.logic.BestMatch']
+    logic_adapters=['chatterbot.logic.BestMatch'],
 )
 
 list_trainer = ListTrainer(my_bot)
@@ -39,13 +39,16 @@ while talking:
 
         userInput = input("User: ")
         answer = my_bot.get_response(userInput)
-        # print(answer.confidence) -> teste só pra ver as confianças das respostas
+        
         if userInput.lower() == "tchau":
             talking = False
             print("Bot: Tchau tchau, até a próxima :)")
-        elif float(answer.confidence) > 0.05:
-            print("Bot: ", answer)
+    # respostas com base na confiança
+        # elif float(answer.confidence) > 0.05:
+        #    print("Bot: ", answer)
+        #else:
+        #    print("Não entendo.")
         else:
-            print("Não entendo.")
+           print("Bot: ", answer)
     except(KeyboardInterrupt, EOFError, SystemExit):
         break
