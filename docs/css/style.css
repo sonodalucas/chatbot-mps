@@ -203,6 +203,14 @@ header{
     color: #49484B;
 }
 
+.card{
+    margin-bottom: 20px;
+}
+
+.card-contato{
+    padding: 30px;
+}
+
 #card1.card{
     margin-right: 50px;
 }
@@ -231,4 +239,47 @@ header{
     font-size: 24px;
     font-weight: 700;
     color: #49484B;
+    margin-bottom: 100px;
+}
+
+/*Botão Contato*/
+.btn-contato{
+    font-family: 'Inter', sans-serif;
+    padding: 12px 60px;
+    border-radius: 50px;
+    border: 1px solid #6A686C;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #6A686C;
+}
+
+.foto-pessoa{
+    width: 212.49px;
+    height: 169.97px;
+}
+
+#onda-left{
+    position: absolute;
+    left: -500px;
+    top: -100px;
+}
+
+#onda-right{
+    position: absolute;
+    right: -500px;
+    top: 300px;
+    transform: scaleX(-1);
+}
+
+#contatos{
+    position: relative;
+}
+
+a.btn.btn-outline-light.btn-floating.m-1:hover{
+    background: transparent;
+}
+
+/*animacao final*/
+.btn-outline-light:hover{
+    color: white;
 }
