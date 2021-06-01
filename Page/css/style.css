@@ -1,0 +1,234 @@
+/*Estilos Gerais*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    background: white;
+}
+
+/*Subtitulo Como funciona*/
+.nota-h2{
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    font-variant: small-caps;
+
+    color: #443D52;
+}
+
+#h1-titulo{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 60px;
+    /* or 109% */
+
+    color: #FFFFFF;
+}
+
+#como-func{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+
+    text-align: left;
+    color: #49484B;
+}
+
+#logo{
+    height: 50px;
+}
+
+p{
+    text-align: left;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    /* or 178% */
+    color: #6D7474;
+}
+
+#page-home{
+    /* Titulos */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    }
+
+#fundo{
+    height: 100vh;
+    width: 100%;
+    padding: 100px 0;
+}
+
+#fundo::before{
+    background: #C3B3FF;
+    content: "";
+    height: 150%;
+    left: 0%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /*-moz-transform: rotate(-21deg);
+    -moz-transform: skewY(-21deg);
+    -webkit-transform: rotate(-21deg);
+    -webkit-transform: skewY(-21deg);
+    -o-transform: rotate(-21deg);
+    -o-transform: skewY(-21deg);
+    -ms-transform: rotate(-21deg);
+    -ms-transform: skewY(-21deg);*/
+    transform: rotate(-21deg);
+    transform: skewY(-25deg);
+    margin-top: -600px;  
+}
+
+.botao-home{
+    background: #4717F6;
+    padding: 15px 42px;
+    border-radius: 50px;
+    width: 279px;
+    height: 51.24px;
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.botao-contato{
+    background: #4717F6;
+    padding: 15px 42px;
+    border-radius: 50px;
+    width: 279px;
+    height: 51.24px;
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+a.navbar-brand{
+    background: transparent;
+}
+
+.btn-custom{
+    background: #A33ACB;
+    border-radius: 50px;
+    border-color:  #A33ACB;
+  
+}
+
+.nav-item.btn-custom a.nav-link{
+    color: #FFFFFF;
+}
+
+.navbar-brand{
+    padding: 0;
+    background: rgb(255, 255, 255);
+}
+
+/*Imagem da página inicial*/
+#imagem-fundo{
+    width: 2496.18px;
+    height: 1331.55px;
+    left: -501px;
+    top: 143px;
+}
+
+.container #nav-container{
+    align-items: flex-start
+}
+
+/*Barra de navegação*/
+header{
+    background: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 16px;
+}
+
+
+#navbarResponsive{
+    /* Cabeçalho */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #49484B;
+}
+
+.navbar{
+    /* width: 1148px; */
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 56px;
+    margin: auto;
+}
+
+.espacamento{
+    padding-right: 200px;
+}
+
+.info-chat{
+    text-align: start;
+    margin-top: 40px;
+    font-size: 24px;
+    color: #49484B;
+}
+
+.descricao{
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+#descricao-func.descricao{
+    margin-top: 20px;
+}
+
+.titulo-beneficios h3{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #49484B;
+}
+
+#card1.card{
+    margin-right: 50px;
+}
+
+#card2.card{
+    margin-right: 10px;
+}
+
+#card3.card{
+    margin-left: 40px;
+}
+
+#card-geral{
+    margin-top: 100px;
+}
+
+.card-text{
+    font-size: 18px;
+    font-weight: 400;
+    color: #49484B;
+}
+
+#contatos h3{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #49484B;
+}

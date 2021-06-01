@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta Pra Mim</title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+     <!-- Menu de Navegação -->
+     <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand">
+                    <img id="logo" src="imagens/Logo.png" alt="" href="index.html">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#como-funciona">Como Funciona</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#beneficios">Benefícios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contatos">Contatos</a>
+                        </li>
+                        <li class="nav-item btn-custom">
+                            <a class="nav-link" href="#">Conversar
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+     </header>
+     
+    <!-- Fim Menu de Navegação -->
+
+    <hr class="featurette-divider">
+
+    <div class="container">
+
+        <!--Sobre-->
+        <div class="row featurette" id="fundo">
+            <div class="col-md-7">
+                <h1 id="h1-titulo">Não sabe para quem contar sobre o final do filme?</h1>
+                <p id="page-home">Fale tudo para gente sobre esse tão querido filme, anime ou série que você gosta, queremos saber
+                    sobre tudo que te deixou interessado e que possa interessar seus futuros colegas!</p>
+
+                    <a class="botao-home" href="#">Iniciar Conversar
+                                <span class="sr-only">(current)</span>
+                    </a>
+            </div>
+            <div class="col-md-5">
+                <a id="imagem-bot"></a>
+                <img class="featurette-image img-fluid rounded-top mx-auto" src="Imagens/Bot.svg" alt="">
+            </div>
+        </div>
+        <!--Fim do Sobre-->
+
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6">
+                <div class="espacamento">
+                    <!--Como Funciona-->
+                <div id="como-funciona">
+                    <div class="nota-h2">
+                        <p>COMO FUNCIONA</p>
+                    </div>
+                    <h3 class="info-chat" id="como-func">Conte tudo o que sabe sobre seu filme favorito já!</h3>
+                    <p class="lead descricao" id="descricao-func">     
+                        Sabe aquela sensação de sair do cinema e não saber por onde começar a falar sobre o filme? Com o Chatinho você pode interagir aos poucos contanto os momentos mais marcantes do seu fime ou desenho favorito!
+                    </p>
+                </div>
+                <!--Fim do Como Funciona-->
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3">
+                <!--Como Funciona-->
+                <div >
+                    <div >
+                        <img src="Imagens/Sobre-icon.png">
+                    </div>
+                    <div>
+                        <h3 class="info-chat">Sobre o chatbot</h3>
+                    </div>
+                    <p class="lead descricao">     
+                        O Chatinho é um excelente ouvinte e super interessado nas novidades do cinema. Com ele, você pode comentar sobre o conteúdo cinematográfico aos poucos.
+                    </p>
+                </div>
+                <!--Fim do Como Funciona-->
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3">
+                <!--Como Funciona-->
+                <div>
+                    <div >
+                        <img src="Imagens/Share-icon.png">
+                    </div>
+                    <div>
+                        <h3 class="info-chat">Compartilhe já</h3>
+                    </div>
+                    <p class="lead descricao">   
+                        Seus amigos viram um filme e você não quer pegar spoiler? Envie esse site para seus amigos falarem sobre o que viram com o chatbot.  
+                    </p>
+                </div>
+                <!--Fim do Como Funciona-->
+            </div>
+        </div>
+
+        <div class="titulo-beneficios" id="beneficios">
+            <h3>Benefícios do Chatbot</h3>
+        </div>
+
+        <div class="row justify-content-md-center" id="card-geral">
+            <div class="card" id="card1" style="width: 18rem;">
+                <img class="card-img-top" src="Imagens/Fig1-beneficios.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Converse a qualquer hora</h5>
+                  <p class="card-text">Aqui você não precisa de um horário específico para iniciar sua conversa sobre aquele filme ou anime incrível que você assitiu :)</p>
+                </div>
+              </div>
+
+              <div class="card" id="card2" style="width: 18rem;">
+                <img class="card-img-top" src="Imagens/Fig2-beneficios.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Fácil acesso</h5>
+                  <p class="card-text" id="acesso-id">Para iniciar a conversa, basta clicar no botão “Iniciar conversa” adicionado já aqui na página do Conta pra mim.</p>
+                </div>
+              </div>
+
+              <div class="card" id="card3" style="width: 18rem;">
+                <img class="card-img-top" src="Imagens/Fig3-beneficios.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Entendimento do assunto</h5>
+                  <p class="card-text">Às vezes, alguns pontos passam despercebidos quando a gente assiste algo, não é? Conversando no chatbot tem a possibilidade de relembrar!</p>
+                </div>
+              </div>
+        </div>
+        
+
+        <!--Contatos-->
+        <div >
+        <div id="contatos">
+            <h3>Time de Desenvolvimento</h3>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="card" style="width: 10rem;">
+                        <img src="Integrantes/Foto-Jeniffer.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Jeniffer Macena</h5>
+                          <p class="card-text">Licenciatura em Computação</p>
+                        </div>
+                    </div>
+                    
+        </div>
+        
+        </div>
+        <!--Fim do Contatos-->
+
+        </div>
+
+        <footer class="bg-dark text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+          
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+          
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fab fa-google"></i
+                ></a>
+          
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+          
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fab fa-linkedin-in"></i></a>
+          
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fab fa-github"></i></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+
+</body>
+
+
+</html>
