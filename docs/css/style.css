@@ -66,6 +66,8 @@ p{
     font-weight: normal;
     font-size: 18px;
     color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 20px;
     }
 
 #fundo{
@@ -228,7 +230,7 @@ header{
 }
 
 .card-text{
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     color: #49484B;
 }
@@ -282,4 +284,7 @@ a.btn.btn-outline-light.btn-floating.m-1:hover{
 /*animacao final*/
 .btn-outline-light:hover{
     color: white;
+}
+.card-img-top.card1{
+    height: 260px;
 }
