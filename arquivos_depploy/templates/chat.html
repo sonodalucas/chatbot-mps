@@ -8,28 +8,47 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-    <h1 class="jumbotron text-center">Conta Pra mim</h1>
+    <h1 class="jumbotron text-center" style="background-color: #fff;"></h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand">
+                <img id="logo" src="../static/Logo.png" alt="" href="chat.html">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
 <div class="container">
     <div class="row">
         <div class="col-sm-6 offset-sm-3" style="max-height: 400px;">
             <div id="chatbox" class="border border-success">
-              <p></p>
-              <p class="botText"><span>Oi</span></p>
+                <p></p>
+              <p class="botText"><span>Oi, eu sou o chatbot mais curioso dos cinemas, conta pra mim sobre um filme que você assistiu :)</span></p>
             </div>
             <div id="userInput">
-                <input id="textInput" class="form-control" type="text" name="msg" placeholder="Digite aqui..." autofocus="autofocus">
-                <input id="buttonInput" class="btn btn-success form-control" type="submit" value="Enviar">
+                <input id="textInput" class="form-control" type="text" name="msg" placeholder="Digite aqui..." autofocus="autofocus" class="fixed-bottom">
+                <input id="buttonInput" class="btn btn-success form-control" style="background-color: #C3B3FF;" type="submit" value="Enviar">
             </div>
         </div>
     </div>
 
 <script>
+
     function getResponse() {
         let userText = $("#textInput").val();
         let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
         $("#textInput").val("");
         $("#chatbox").append(userHtml);
-        document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+        document.getElementById('userInput')//.scrollIntoView({block: 'start', behavior: 'smooth'});
+
+        $("#chatbox").animate(
+            {
+                scrollTop: $("#chatbox").height()
+            },
+            1000
+        );
         $.get("/get", { msg: userText }).done(function(data) {
         var botHtml = '<p class="botText"><span>' + data + '</span></p>';
         $("#chatbox").append(botHtml);

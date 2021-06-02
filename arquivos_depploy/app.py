@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from chatbot import answer
+from bot import answer
 # create the application object
 app = Flask(__name__)
 

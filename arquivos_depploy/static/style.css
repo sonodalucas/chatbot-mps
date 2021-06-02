@@ -1,6 +1,6 @@
 #textInput {
   border: none;
-  border-bottom: 3px solid aqua;
+  border-bottom: 3px solid #C3B3FF;
 }
 
 .userText {
@@ -11,7 +11,7 @@
   line-height: 30px;
 }
 .userText span {
-  background-color: #009688;
+  background-color: #A33ACB;
   padding: 10px;
   border-radius: 2px;
 }
@@ -23,7 +23,158 @@
   line-height: 30px;
 }
 .botText span {
-  background-color: #EF5350;
+  background-color: #684ad6;
   padding: 10px;
   border-radius: 2px;
+}
+
+#chatbox{
+  height: 500px;
+  overflow: auto;
+  padding: 5px;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  background: white;
+}
+
+#como-func{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+
+  text-align: left;
+  color: #49484B;
+}
+
+#logo{
+  height: 80px;
+}
+
+p{
+  text-align: left;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  /* or 178% */
+  color: #6D7474;
+}
+
+#page-home{
+  /* Titulos */
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  }
+
+#fundo{
+  height: 100vh;
+  width: 100%;
+  padding: 100px 0;
+}
+
+#fundo::before{
+  background: #C3B3FF;
+  content: "";
+  height: 150%;
+  left: 0%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  transform: rotate(-21deg);
+  transform: skewY(-25deg);
+  margin-top: -600px;  
+}
+
+.botao-home{
+  background: #4717F6;
+  padding: 15px 42px;
+  border-radius: 50px;
+  width: 279px;
+  height: 51.24px;
+  color: white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.botao-contato{
+  background: #4717F6;
+  padding: 15px 42px;
+  border-radius: 50px;
+  width: 279px;
+  height: 51.24px;
+  color: white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+a.navbar-brand{
+  background: transparent;
+}
+
+.btn-custom{
+  background: #A33ACB;
+  border-radius: 50px;
+  border-color:  #A33ACB;
+
+}
+
+.nav-item.btn-custom a.nav-link{
+  color: #FFFFFF;
+}
+
+.navbar-brand{
+  padding: 0;
+  background: rgb(255, 255, 255);
+}
+
+/*Imagem da página inicial*/
+#imagem-fundo{
+  width: 2496.18px;
+  height: 1331.55px;
+  left: -501px;
+  top: 143px;
+}
+
+.container #nav-container{
+  align-items: flex-start
+}
+
+/*Barra de navegação*/
+header{
+  background: #FFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 16px;
+}
+
+
+#navbarResponsive{
+  /* Cabeçalho */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #49484B;
+}
+
+.navbar{
+  /* width: 1148px; */
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 100px;
+  margin: auto;
+}
+
+.espacamento{
+  padding-right: 200px;
 }
