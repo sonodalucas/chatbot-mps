@@ -1,6 +1,5 @@
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
-from chatterbot.trainers import ChatterBotCorpusTrainer
 
 my_bot = ChatBot(
     name="bot",
@@ -36,10 +35,13 @@ list_trainer.train([
     'Sim, melhor coisa para comer assistindo filmes, apesar de que bot não comem.',  # bot
     'Hahahaha', 'kkkk',
     'kkk', 'kkkk',
+    'ate mais', 'ate'
 ])
 
 list_trainer.train([
     'oi como você está?',  
+    'Olá, eu sou o chatbot mais curioso dos cinemas, conta pra mim sobre um filme que você assistiu :)',
+    'ola',  
     'Olá, eu sou o chatbot mais curioso dos cinemas, conta pra mim sobre um filme que você assistiu :)',  
     'ok',  
     'Vamos lá conta pra mim sobre o filme',  
